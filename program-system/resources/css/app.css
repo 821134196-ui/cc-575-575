@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+@source '../../storage/framework/views/*.php';
+@source '../**/*.jsx';
+
+@theme {
+    --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+
+    /* 剧院主题：深酒红 + 金色点缀，中性墨色 */
+    --color-theater-50: #fbf3f2;
+    --color-theater-100: #f5e4e1;
+    --color-theater-200: #e9c6c0;
+    --color-theater-500: #a4483f;
+    --color-theater-600: #8f3a32;
+    --color-theater-700: #752e28;
+    --color-theater-800: #5c2520;
+    --color-gold-400: #c9a44c;
+    --color-gold-500: #b8912f;
+
+    /* 状态色（固定，不做系列色复用） */
+    --color-good: #0ca30c;
+    --color-good-text: #006300;
+    --color-warning: #b97e00;
+    --color-serious: #c25a30;
+    --color-critical: #d03b3b;
+
+    --color-ink: #0b0b0b;
+    --color-ink-2: #52514e;
+    --color-ink-3: #898781;
+    --color-line: #e1e0d9;
+    --color-surface: #fcfcfb;
+    --color-plane: #f9f9f7;
+}
+
+body {
+    background: var(--color-plane);
+    color: var(--color-ink);
+}
