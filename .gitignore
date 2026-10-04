@@ -7,7 +7,11 @@ __pycache__/
 target/
 dist/
 build/
+!server/public/build/
+!server/public/build/**
 *.log
+server/database/database.sqlite
+server/storage/logs/*.log
 .claude/
 .cc-workbench/
 轨迹/

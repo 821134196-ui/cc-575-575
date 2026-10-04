@@ -1,0 +1,11 @@
+{
+  "resources/js/main.jsx": {
+    "file": "assets/main-BMCsK5_l.js",
+    "name": "main",
+    "src": "resources/js/main.jsx",
+    "isEntry": true,
+    "css": [
+      "assets/main-h7EXPKhX.css"
+    ]
+  }
+}
